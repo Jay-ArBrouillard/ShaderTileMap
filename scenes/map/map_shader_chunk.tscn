@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://wnrptjdqrwh8"]
+
+[ext_resource type="Script" path="res://scenes/map/map_shader_chunk.gd" id="1_x2s70"]
+[ext_resource type="Texture2D" uid="uid://b6sgqxrl6j61x" path="res://icon.svg" id="2_moqvh"]
+
+[node name="MapShaderChunk" type="Node2D"]
+script = ExtResource("1_x2s70")
+
+[node name="MapRenderer" type="Sprite2D" parent="."]
+texture = ExtResource("2_moqvh")
